@@ -16,9 +16,9 @@ Enjoy!
 
 # Steps
 1. Download from here https://archive.org/details/CuckooVM
-2. Import the ovf to VMWare
-3. Open the vm
-4. Setup vm analysis for cuckoo
+2. Import the ovf to VMware
+3. Open the Ubuntu Virtual Machine
+4. Open Virtualbox in the Ubuntu and setup vm analysis for cuckoo in Virtualbox.
   - If you're using AMD, run the pre-setup "win7" vm in virtual box and restore to the base2 snapshot.
   - If you're using Intel, copy the `CuckooVM/Win7_Intel.tar` into the ubuntu and import it. Run the `Win7_intel` and restore to the base2 snapshot.
 5. Configure `/home/cuckoo/.cuckoo/conf/virtualbox.conf` for vm name. If using amd, just leave it. If using intel, change to "win7" to "Win7_intel"
