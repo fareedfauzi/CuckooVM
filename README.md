@@ -21,7 +21,7 @@ Enjoy!
 4. Open Virtualbox in the Ubuntu and setup vm analysis for cuckoo in Virtualbox.
   - If you're using AMD, run the pre-setup "win7" vm in virtual box and restore to the base2 snapshot.
   - If you're using Intel, copy the `CuckooVM/Win7_Intel.tar` into the ubuntu and import it. Run the `Win7_intel` and restore to the base2 snapshot.
-5. Configure `/home/cuckoo/.cuckoo/conf/virtualbox.conf` for vm name. If using amd, just leave it. If using intel, change to "win7" to "Win7_intel"
+5. Configure `/home/cuckoo/.cuckoo/conf/virtualbox.conf` for vm name. If using amd, just leave it. If using intel, change from "win7" to "Win7_intel"
 6. To start.
   - 1st terminal. Run `cuckoo -d`
   - 2nd terminal. Run `cuckoo web`
