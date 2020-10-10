@@ -24,6 +24,6 @@ Enjoy!
 5. Configure `/home/cuckoo/.cuckoo/conf/virtualbox.conf` for vm name. If using amd, just leave it. If using intel, change from "win7" to "Win7_intel"
 6. To start.
   - 1st terminal. Run `cuckoo -d`
-  - 2nd terminal. Run `cuckoo web`
-7. Here we go! -> http://localhost:8000/dashboard/
+  - 2nd terminal. Run `cuckoo web runserver 0.0.0.0:8000`
+7. Here we go! -> http://<IP>:8000/dashboard/
 8. Give a thank to https://twitter.com/binaryz0ne!
