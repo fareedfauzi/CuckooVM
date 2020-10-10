@@ -26,3 +26,4 @@ Enjoy!
   - 1st terminal. Run `cuckoo -d`
   - 2nd terminal. Run `cuckoo web`
 7. Here we go! -> http://localhost:8000/dashboard/
+8. Give a thank to https://twitter.com/binaryz0ne!
